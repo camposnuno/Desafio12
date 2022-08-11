@@ -37,7 +37,7 @@ header {
 header > h1 {
     padding-top: 40px;
     font-variant: small-caps;
-    font-size: 10vw;
+    font-size: 8vw;
     font-family: var(--font2);
 
 }
@@ -100,6 +100,10 @@ section#img02 {
     background-image: url(../imagens/background002.jpg);
 
 }
+section#img03 {
+    background-image: url(../imagens/FerndoPessoa4.png);
+    background-size: 100%;
+}
 
 
 
@@ -108,4 +112,13 @@ footer {
     background-color: black;
     padding: 10px;
     text-align: center;
+}
+
+footer  a {
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: blue;
+
 }
